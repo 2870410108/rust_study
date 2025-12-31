@@ -1,4 +1,4 @@
-//特征练习
+//特征基础练习
 //定义一个可以打印自身的方法
 pub trait Summary {
     fn summarize(&self) -> String;//定义一个方法签名,没有默认实现
