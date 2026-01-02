@@ -33,8 +33,9 @@
     fn func(s1:&str)->&str{s1}
     上面的代码是合法的，因为根据规则2
     fn func2(&self,s1:&str,s2:&str)->&str{s1}
-    上面的代码是合法的，因为根据规则3
- */
+    上面的代码是合法的，因为根据规则2
+ 
+
 fn main() {
     let s1 = String::from("hello");
     let result:&str;
@@ -53,3 +54,7 @@ fn func<'a>(s1:&'a str,s2:&'a str)->&'a str{
             s2
         }
     }
+*/
+fn main() {
+    println!("你好啊，生命周期！");  
+}
