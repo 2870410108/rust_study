@@ -44,7 +44,7 @@ fn main(){
         width,
         height,
         };
-        if rect.is_legal()==false{
+        if !rect.is_legal(){
         println!("this rectangle is not legal");
         continue;
         }
