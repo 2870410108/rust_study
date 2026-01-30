@@ -1,0 +1,12 @@
+[package]
+name = "my_tool"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = "0.4"
+regex = "1.10"
+walkdir = "2.4"
+zip = "0.6"
+[build-dependencies]
+embed-resource = "2.4"
